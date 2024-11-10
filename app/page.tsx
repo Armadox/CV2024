@@ -101,9 +101,9 @@ export default function Home() {
   return (
     <div className="text-zinc-200 bg-zinc-950 w-full">
       <Header/>
+      <div id="about-me" className="invisible section"/>
       <div className="h-[10rem]"/>
       <Container className="bg-zinc-900">
-      <div id="about-me" className="invisible section"/>
         <AboutMe 
           header={"Frontend | Fullstack Developer"} 
           text={"Hello, my name is Adrian Dan and I am a self taught web-developer! Let's collaborate and create some nice f*ing shit together!"} 
@@ -113,21 +113,21 @@ export default function Home() {
         />
       </Container>
       <div className="w-full h-2 bg-main"/>
-      <MailSender className="top-[-4rem]"/>
       <div id="skills" className="h-0 invisible section"/>
+      <MailSender className="top-[-4rem]"/>
       <Container className="bg-zinc-950">
         <Skills skills={skill}/>
       </Container>
       <div className="w-full h-2 bg-main"/>
+      <div id="experience" className="h-0 invisible section"/>
       <Container className="bg-zinc-900 py-20 min-h-[800px]">
-        <div id="experience" className="h-0 invisible section"/>
         <div className="text-xl text-center lg:text-5xl lg:text-start mb-5" >I worked as a...</div>
         <Experiences experiences={experience}/>
       </Container>
+      <div id="projects" className="h-0 invisible section"/>
       <div className="w-full flex items-center justify-center h-[200px] bg-zinc-950">
         <Writing myWord="PROJECTS" className="text-4xl md:text-5xl" time={200} underline/>
       </div>
-      <div id="projects" className="h-0 invisible section"/>
       <Container className="bg-zinc-900 py-20">
         <Projects/>
       </Container>
