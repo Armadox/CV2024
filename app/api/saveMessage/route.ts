@@ -12,7 +12,7 @@ export const POST = async (req: Request) => {
 
         // Connect to MongoDB
         await client.connect();
-        const db = client.db('your-database-name');
+        const db = client.db('Mail');
         const collection = db.collection('messages');
 
         // Insert the data
