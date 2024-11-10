@@ -30,7 +30,7 @@ import {
 
 const Skills:React.FC<SkillProps> = ({skills}) => {
     return ( 
-        <div className="mb-[4rem]">
+        <div className="mb-[6rem]">
             <Carousel>
                 <CarouselContent>
                     {skills.map((skill, index) => (
