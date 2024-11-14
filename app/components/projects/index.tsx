@@ -49,13 +49,18 @@ const Projects = () => {
         <div className="flex items-center justify-center text-3xl mb-4">
             <div>Select Project:</div>
         </div>
-        <div className="flex items-center justify-evenly text-sm sm:text-md md:text-lg lg:text-xl mb-8">
-            <div className="flex justify-evenly items-center w-[80%] md:w-1/2">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mb-8">
+            <div className="flex justify-evenly items-center">
                 <div className="hover:cursor-pointer min-w-[60px] underline" onClick={() => setNumbers("130842")}>Chat Messenger</div>
-                <div className="w-[1px] h-[15px] bg-zinc-300"/>
+            </div>
+            <div className="flex justify-evenly items-center">
                 <div className="hover:cursor-pointer underline" onClick={() => setNumbers("100318")}>Online Store</div>
-                <div className="w-[1px] h-[15px] bg-zinc-300"/>
+            </div>
+            <div className="flex justify-evenly items-center">
                 <div className="hover:cursor-pointer underline" onClick={() => setNumbers("142511")}>Object Creator</div>
+            </div>
+            <div className="flex justify-evenly items-center">
+                <div className="hover:cursor-pointer underline" onClick={() => setNumbers("183824")}>GMap E-Mail Scrapper</div>
             </div>
         </div>
         <div className="flex justify-center items-center">
@@ -112,7 +117,19 @@ const Projects = () => {
                 <div className="text-red-800 pb-2 lg:pb-4">UPDATE: Website went down since my free hosting expired.</div>
             </div>} 
             footer={"https://github.com/Armadox/test"}/>
-            ) : (<Project title={""} description={""} content={""} footer={""}/>)}
+            ) : numbers === "183824" ? (
+                <Project 
+                title={"Google Maps E-Mail Scrapper"} 
+                description={"E-Mail scrapper with Puppeteer."} 
+                content={
+                <div>
+                    <div className="pb-2 lg:pb-4">Developed a web scraper using Puppeteer and Next.js for automated email collection from websites based on specific directory links like "kontakt" or "impressum".</div>
+                    <div className="pb-2 lg:pb-4">Handles dynamic scraping with fallback email extraction from the main page if not found in the specified directories.</div>
+                    <div className="pb-2 lg:pb-4">Optimized for serverless environments, ensuring scalability and efficient use of server resources.</div>
+                    <div>You can check it out here: <Link className="underline text-main" href="https://mail-scrapper.vercel.app">Link</Link></div>
+                </div>} 
+                footer={"https://github.com/Armadox/mail-scrapper"}/>
+                ) : (<Project title={""} description={""} content={""} footer={""}/>)}
         </div>
     </div> );
 }
