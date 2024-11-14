@@ -123,7 +123,7 @@ const Projects = () => {
                 description={"E-Mail scrapper with Puppeteer."} 
                 content={
                 <div>
-                    <div className="pb-2 lg:pb-4">Developed a web scraper using Puppeteer and Next.js for automated email collection from websites based on specific directory links like "kontakt" or "impressum".</div>
+                    <div className="pb-2 lg:pb-4">Developed a web scraper using Puppeteer and Next.js for automated email collection from websites based on specific directory links like &quot;kontakt&quot; or &quot;impressum&quot;.</div>
                     <div className="pb-2 lg:pb-4">Handles dynamic scraping with fallback email extraction from the main page if not found in the specified directories.</div>
                     <div className="pb-2 lg:pb-4">Optimized for serverless environments, ensuring scalability and efficient use of server resources.</div>
                     <div>You can check it out here: <Link className="underline text-main" href="https://mail-scrapper.vercel.app">Link</Link></div>
