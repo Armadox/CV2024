@@ -15,14 +15,28 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Adrian D.",
-  description: "Adrian Dan Portfolio",
+  openGraph: {
+    title: "Adrian D.",
+    description: "Adrian Dan Portfolio",
+    url: 'https://adrian-dan-cv.vercel.app',
+    siteName: 'Next.js',
+    images: [
+      {
+        url: 'https://adrian-dan-cv.vercel.app/og.png',
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
 };
 
 const notoSans = Noto_Sans({
   subsets: ['latin'],
   weight: "300"
 })
+
 
 export default function RootLayout({
   children,
