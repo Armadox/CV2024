@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { Analytics } from "@vercel/analytics/react"
 import Header from "./components/header";
 import Container from "./components/container";
 import Footer from "./components/footer";
@@ -132,6 +132,7 @@ export default function Home() {
         <Projects/>
       </Container>
       <Footer/>
+      <Analytics/>
     </div>
   );
 }
