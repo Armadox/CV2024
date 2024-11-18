@@ -44,7 +44,7 @@ export default function Home() {
           </ul>
         </div>),
       footer: "DAN.MINIMARKT RU S.R.L",
-      date: "May 2023 - Jun 2024"
+      date: "Sep 2022 - Feb 2023"
     },
     {
       name: 'Front-End developer intern', 
@@ -93,7 +93,7 @@ export default function Home() {
       </div>
       ),
       footer: "gym-and-more.at",
-      date: "Sep 2022 - Feb 2023"
+      date: "May 2023 - Jun 2024"
     },  
   ]
 
