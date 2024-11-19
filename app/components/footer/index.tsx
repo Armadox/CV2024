@@ -38,14 +38,14 @@ const Footer = () => {
                 <div><Link href={"https://github.com/Armadox"} className="flex items-center py-[2px]"><FaGithub/>GitHub</Link></div>
                 <div><Link href={"https://www.linkedin.com/in/adrian-d-771174226/"} className="flex items-center py-[2px]"><FaLinkedin/>LinkedIn</Link></div>
                 <div className="font-extrabold mt-4 mb-2 md:hidden flex items-center py-[2px]"><IoIosDocument/>Downloads:</div>
-                <div><Link href={"https://drive.google.com/file/d/1P7wXUx4AZteOoM11rH9GlYRkLqu4WrGy/view?usp=sharing"} className="md:hidden flex items-center py-[2px]"><FaGun/>EN-CV</Link></div>
-                <div><Link href={"https://drive.google.com/file/d/1c1-_mk7u5V0MNsFNxQ8alpa39gx4tBwA/view?usp=sharing"} className="md:hidden flex items-center py-[2px]"><GiSausage/>DE-CV</Link></div>
+                <div><Link href={"https://drive.google.com/file/d/1o6uBCat-kkMvDyryZ0JuUyS6vvOIhgf1/view?usp=sharing"} className="md:hidden flex items-center py-[2px]"><FaGun/>EN-CV</Link></div>
+                <div><Link href={"https://drive.google.com/file/d/1AreJli8rg021C0WieKBtBOiTwQjAtK7M/view?usp=sharing"} className="md:hidden flex items-center py-[2px]"><GiSausage/>DE-CV</Link></div>
             </div>
             <Separator orientation="vertical" className="hidden md:block"/>
             <div className="flex flex-col px-1 md:px-6 hidden md:block">
                 <div className="flex justify-center items-center font-extrabold mb-2 hidden md:block">Downloads:</div>
-                <div><Link href={"https://drive.google.com/file/d/1P7wXUx4AZteOoM11rH9GlYRkLqu4WrGy/view?usp=sharing"} className="flex items-center py-[2px]"><FaGun/>EN-CV</Link></div>
-                <div><Link href={"https://drive.google.com/file/d/1c1-_mk7u5V0MNsFNxQ8alpa39gx4tBwA/view?usp=sharing"} className="flex items-center py-[2px]"><GiSausage/>DE-CV</Link></div>
+                <div><Link href={"https://drive.google.com/file/d/1o6uBCat-kkMvDyryZ0JuUyS6vvOIhgf1/view?usp=sharing"} className="flex items-center py-[2px]"><FaGun/>EN-CV</Link></div>
+                <div><Link href={"https://drive.google.com/file/d/1AreJli8rg021C0WieKBtBOiTwQjAtK7M/view?usp=sharing"} className="flex items-center py-[2px]"><GiSausage/>DE-CV</Link></div>
             </div>
         </div>
         <div className="flex w-full items-center justify-center">
