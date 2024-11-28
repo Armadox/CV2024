@@ -58,7 +58,7 @@ export default function Home() {
               <li>
                   Worked within a dynamic team of front-end and back-end developers.
                   <ul className="text-sm text-zinc-300">
-                      <li>Utilized NextJS and Tailwind to develop and optimize front-end interfaces to effectively showcase
+                      <li>Utilized Next.js and Tailwind to develop and optimize front-end interfaces to effectively showcase
                           content and ensure an ideal user experience.</li>
                       <li>Worked on our GraphQL front-end code to optimize the exchange of data between client and
                           server.</li>
@@ -80,7 +80,7 @@ export default function Home() {
             <li>
                 Founded and developed gym-and-more.at, an online e-shop specialized in selling supplements.
                 <ul className="text-sm text-zinc-300">
-                    <li>Used NextJS and Tailwind CSS with a mobile-first approach for optimal front-end development,
+                    <li>Used Next.js and Tailwind CSS with a mobile-first approach for optimal front-end development,
                         resulting in a very fast, snappy, and dynamic layout.</li>
                     <li>Implemented Prisma to construct a flexible and efficient data model for users, products, and
                         orders.</li>

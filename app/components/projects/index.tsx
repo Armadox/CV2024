@@ -95,7 +95,7 @@ const Projects = () => {
             ) : numbers === "100318" ? (
             <Project 
             title={"Online Store"} 
-            description={"Fullstack developed E-Shop website using NextJS, Tailwindcss, Prisma and MongoDB."} 
+            description={"Fullstack developed E-Shop website using Next.js, Tailwindcss, Prisma and MongoDB."} 
             content={
             <div>
                 <div className="pb-2 lg:pb-4">Website was built following a mobile first approach, therefor having great performance.</div>
