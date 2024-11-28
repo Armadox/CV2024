@@ -21,11 +21,11 @@ export default function Home() {
     {svg: <ReactSVG/>, name: 'React,js'},
     {svg: <NextSVG/>, name: 'Next.js'},
     {svg: <GitSVG/>, name: 'Git'},
-    {svg: <GraphQlSVG/>, name: 'GraphQl'},
+    {svg: <GraphQlSVG/>, name: 'GraphQL'},
     {svg: <PrismaSVG/>, name: 'PrismaDB'},
     {svg: <AuthSVG/>, name: 'Auth-0'},
-    {svg: <SocketSVG/>, name: 'Socket.io'},
-    {svg: <AmogusSVG/>, name: 'War crimes'}
+    {svg: <SocketSVG/>, name: 'socket.io'},
+    {svg: <AmogusSVG/>, name: 'War Crimes'}
   ]
 
   const experience = [
