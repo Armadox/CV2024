@@ -1,6 +1,10 @@
 import { MongoClient } from 'mongodb';
 
-const uri = process.env.MONGODB_URI!;
+const uri = process.env.MONGODB_URI || "";
+if (!uri.startsWith("mongodb")) {
+    throw new Error("Invalid MongoDB URI. Please check the MONGODB_URI environment variable.");
+}
+
 const options = {};
 
 const client = new MongoClient(uri, options);
