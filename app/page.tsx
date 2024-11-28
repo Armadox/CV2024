@@ -47,7 +47,7 @@ export default function Home() {
       date: "Sep 2022 - Feb 2023"
     },
     {
-      name: 'Front-End developer intern', 
+      name: 'Front-End Developer Intern', 
       content: (
         <div>
           <ul>
@@ -73,7 +73,7 @@ export default function Home() {
       date: "Mar 2023 - Oct 2023"
     }, 
     {
-      name: 'Founder / Full-Stack developer', 
+      name: 'Founder / Full-Stack Developer', 
       content: (
       <div>
         <ul>
