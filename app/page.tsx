@@ -106,7 +106,7 @@ export default function Home() {
       <Container className="bg-zinc-900">
         <AboutMe 
           header={"Frontend | Fullstack Developer"} 
-          text={"Hello, my name is Adrian Dan and I am a self taught web-developer! Let's collaborate and create some nice f*ing shit together!"} 
+          text={"Hello, my name is Adrian Dan and I am a self taught <React/> developer! Let's collaborate and create something f*king amazing together!"} 
           image={"/images/pfp3.jpg"}
           subtext={"(You can download my CV from the footer)"}
           className="pb-10 min-h-[780px]"
