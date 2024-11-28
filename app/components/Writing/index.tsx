@@ -26,7 +26,7 @@ const Writing:React.FC<WritingProps> = ({myWord, className, time, underline}) =>
         })
       }, time) 
     }
-  }, [projectsBoundary]);
+  }, [projectsBoundary, myWord, time]);
   
 
   return (
