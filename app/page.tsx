@@ -18,7 +18,7 @@ export default function Home() {
     {svg: <SassSVG/>, name: 'Sass/Scss'},
     {svg: <TailwindSVG/>, name: 'TailwindCSS'}, 
     {svg: <TypescriptSVG/>, name: 'TypeScript'},
-    {svg: <ReactSVG/>, name: 'React,js'},
+    {svg: <ReactSVG/>, name: 'React.js'},
     {svg: <NextSVG/>, name: 'Next.js'},
     {svg: <GitSVG/>, name: 'Git'},
     {svg: <GraphQlSVG/>, name: 'GraphQL'},
