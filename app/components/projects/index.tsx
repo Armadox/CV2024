@@ -155,7 +155,7 @@ const Projects = () => {
             content={
               <div>
                 <div className="pb-2 lg:pb-4">
-                  Website was built following a mobile first approach, therefor
+                  Website was built following a mobile first approach, therefore
                   having great performance.
                 </div>
                 <div className="pb-2 lg:pb-4">
