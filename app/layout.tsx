@@ -18,25 +18,24 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Adrian D.",
     description: "Adrian Dan Portfolio",
-    url: 'https://adrian-dan-cv.vercel.app',
-    siteName: 'Next.js',
+    url: "https://adrian-dan-cv.vercel.app",
+    siteName: "Next.js",
     images: [
       {
-        url: 'https://adrian-dan-cv.vercel.app/og.png',
+        url: "https://adrian-dan-cv.vercel.app/og.png",
         width: 1200,
         height: 630,
       },
     ],
-    locale: 'en_US',
-    type: 'website',
+    locale: "en_US",
+    type: "website",
   },
 };
 
 const notoSans = Noto_Sans({
-  subsets: ['latin'],
-  weight: "300"
-})
-
+  subsets: ["latin"],
+  weight: "300",
+});
 
 export default function RootLayout({
   children,
@@ -45,11 +44,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${notoSans.className} antialiased`}
-      >
-        {children}
-      </body>
+      <body className={`${notoSans.className} antialiased`}>{children}</body>
     </html>
   );
 }

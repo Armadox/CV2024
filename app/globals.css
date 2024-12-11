@@ -94,11 +94,11 @@ body {
   background: #555;
 }
 
-li{
+li {
   padding-bottom: 10px;
 }
 
-li > ul > li{
+li > ul > li {
   padding-top: 10px;
   padding-left: 10px;
 }
