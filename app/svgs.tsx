@@ -349,6 +349,8 @@ export const AmogusSVG = () => {
       viewBox="0 0 60 60"
       xmlns="http://www.w3.org/2000/svg"
       fill="#000000"
+      width="80px"
+      height="80px"
     >
       <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
       <g
