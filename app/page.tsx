@@ -21,6 +21,9 @@ import {
   TailwindSVG,
   TypescriptSVG,
   AmogusSVG,
+  CSharpSVG,
+  DotNetSVG,
+  AspNetSVG,
 } from "./svgs";
 import Writing from "./components/Writing";
 
@@ -33,11 +36,13 @@ export default function Home() {
     { svg: <TypescriptSVG />, name: "TypeScript" },
     { svg: <ReactSVG />, name: "React.js" },
     { svg: <NextSVG />, name: "Next.js" },
+    { svg: <CSharpSVG />, name: "C#" },
+    { svg: <DotNetSVG />, name: ".NET" },
+    { svg: <AspNetSVG />, name: "ASP.NET" },
     { svg: <GitSVG />, name: "Git" },
     { svg: <GraphQlSVG />, name: "GraphQL" },
     { svg: <PrismaSVG />, name: "PrismaDB" },
     { svg: <AuthSVG />, name: "Auth-0" },
-    { svg: <SocketSVG />, name: "socket.io" },
     { svg: <AmogusSVG />, name: "War Crimes" },
   ];
 

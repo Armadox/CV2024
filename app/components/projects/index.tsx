@@ -99,6 +99,14 @@ const Projects = () => {
             GMap E-Mail Scrapper
           </div>
         </div>
+        <div className="flex justify-evenly items-center">
+          <div
+            className="hover:cursor-pointer underline"
+            onClick={() => setNumbers("225226")}
+          >
+            Shopping List
+          </div>
+        </div>
       </div>
       <div className="flex justify-center items-center">
         <InputOTP maxLength={6} value={numbers} onChange={(e) => setNumbers(e)}>
@@ -238,6 +246,29 @@ const Projects = () => {
               </div>
             }
             footer={"https://github.com/Armadox/mail-scrapper"}
+          />
+        ) : numbers === "225226" ? (
+          <Project
+            title={"Shopping List"}
+            description={"Fullstack Shopping List Native App."}
+            content={
+              <div>
+                <div className="pb-2 lg:pb-4">
+                  A React Native mobile application powered by an ASP.NET
+                  backend, designed for real-time collaborative shopping lists.
+                </div>
+                <div className="pb-2 lg:pb-4">
+                  Contains features like a full CRUD functionality to manage
+                  lists and items and uses websockets for instant updates
+                  between clients.
+                </div>
+                <div className="pb-2 lg:pb-4">
+                  Users can create rooms or join rooms with a code & password
+                  and data will be stored localy for an automated login.
+                </div>
+              </div>
+            }
+            footer={"https://github.com/Armadox/ShoppingList_Backend"}
           />
         ) : (
           <Project title={""} description={""} content={""} footer={""} />
