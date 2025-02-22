@@ -100,7 +100,7 @@ const Footer = () => {
           <div>
             <Link
               href={
-                "https://drive.google.com/file/d/1WehxOIw4vEqOKOgfsoErBnhfYdoko_dl/view?usp=sharing"
+                "https://drive.google.com/file/d/1Jr79-3PM-OKurJZnRcrOUqT7spxUCPnI/view?usp=sharing"
               }
               className="md:hidden flex items-center py-[2px]"
             >
@@ -111,7 +111,7 @@ const Footer = () => {
           <div>
             <Link
               href={
-                "https://drive.google.com/file/d/12fJlusbMBCznQ3E6hRx8KcB2qXy6xYtf/view?usp=sharing"
+                "https://drive.google.com/file/d/1N7FXHpNba1aHt2KgSuoDHs7a8RtjwpJ8/view?usp=sharing"
               }
               className="md:hidden flex items-center py-[2px]"
             >
@@ -128,7 +128,7 @@ const Footer = () => {
           <div>
             <Link
               href={
-                "https://drive.google.com/file/d/1WehxOIw4vEqOKOgfsoErBnhfYdoko_dl/view?usp=sharing"
+                "https://drive.google.com/file/d/1Jr79-3PM-OKurJZnRcrOUqT7spxUCPnI/view?usp=sharing"
               }
               className="flex items-center py-[2px]"
             >
@@ -139,7 +139,7 @@ const Footer = () => {
           <div>
             <Link
               href={
-                "https://drive.google.com/file/d/12fJlusbMBCznQ3E6hRx8KcB2qXy6xYtf/view?usp=sharing"
+                "https://drive.google.com/file/d/1N7FXHpNba1aHt2KgSuoDHs7a8RtjwpJ8/view?usp=sharing"
               }
               className="flex items-center py-[2px]"
             >
