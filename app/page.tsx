@@ -144,9 +144,11 @@ export default function Home() {
       <div className="h-[10rem]" />
       <Container className="bg-zinc-900">
         <AboutMe
-          header={"Frontend | Fullstack Developer"}
+          header={
+            "<FullstackDeveloper frontEnd={'React.js'} backEnd={'.NET'}/>"
+          }
           text={
-            "Hello, my name is Adrian Dan and I am a self taught <React/> developer! Let's collaborate and create something f*king amazing together!"
+            "Hello, my name is Adrian Dan and I am a self taught Fullstack developer! Let's collaborate and create something f*king amazing together!"
           }
           image={"/images/pfp3.jpg"}
           subtext={"(You can download my CV from the footer)"}
