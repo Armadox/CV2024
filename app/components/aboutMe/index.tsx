@@ -42,7 +42,7 @@ const AboutMe: React.FC<AboutMeProps> = ({
         }`}
       />
       <div className="flex flex-col justify-center items-center text-center md:text-start md:items-start max-w-[600px]">
-        <Writing className="text-4xl text-main" myWord={header} time={30} />
+        <Writing className="text-xl text-main" myWord={header} time={30} />
         <Writing className="text-2xl" myWord={text} time={60} underline />
         {subtext && (
           <Writing
